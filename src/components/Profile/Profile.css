@@ -1,0 +1,11 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
