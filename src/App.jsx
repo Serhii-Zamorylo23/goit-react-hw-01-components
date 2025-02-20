@@ -20,9 +20,7 @@ export const App = () => {
     {data.map((data,index)=>(
       <Statics stats={data} key={index} />
     ))}
-    {friends.map((friend,index)=>(
-      <Friendlist friends={friend} key={index}/>
-    ))}
+    <Friendlist friends={friends}/>
     <TransactionHistory items={Transaction}/>
     </>
   );
