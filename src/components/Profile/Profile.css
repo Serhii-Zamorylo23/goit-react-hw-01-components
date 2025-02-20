@@ -1,11 +1,68 @@
-.profile{
+.profile {
+    width: 280px; /* Задаємо ширину картки */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .tag, 
+  .location {
+    font-size: 14px;
+    color: gray;
+    margin: 2px 0;
+  }
+  
+  .stats {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.avatar{
-    width: 150px;
-    height: 150px;
-    border-radius: 40px;
-}
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: #f3f6f9;
+    border-radius: 5px;
+  }
+  
+  .stats li {
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats li:last-child {
+    border-right: none;
+  }
+  
+  .label {
+    display: block;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .quantity {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
